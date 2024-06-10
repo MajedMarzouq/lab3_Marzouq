@@ -21,7 +21,7 @@ public class MessageSender {
      */
     public static void send(String message) {
         ConnectionFactory factory = new ConnectionFactory();
-        factory.setHost("localhost"); // Make sure RabbitMQ is running on localhost
+        factory.setHost("localhost");
 
         try (Connection connection = factory.newConnection();
              Channel channel = connection.createChannel()) {
