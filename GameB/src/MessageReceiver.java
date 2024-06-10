@@ -28,8 +28,6 @@ public class MessageReceiver {
             DeliverCallback deliverCallback = (consumerTag, delivery) -> {
                 String message = new String(delivery.getBody(), "UTF-8");
                 System.out.println(" [x] Received '" + message + "'");
-                // Process message here
-                // For example, split a CSV message and display parts
                 String[] dataParts = message.split(",");
                 System.out.println("Game: " + dataParts[0]);
                 System.out.println("Level: " + dataParts[1]);

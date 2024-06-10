@@ -32,7 +32,7 @@ public class Game {
         Mongo mongo = new Mongo();
 
         // Example serialization and message sending
-        String gameData = "Example Game,Level 1";
+        String gameData = "Example Game,Level 3";
         send(gameData);
     }
 
