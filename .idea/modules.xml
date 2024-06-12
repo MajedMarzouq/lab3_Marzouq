@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/GameA/GameA.iml" filepath="$PROJECT_DIR$/GameA/GameA.iml" />
       <module fileurl="file://$PROJECT_DIR$/GameB/GameB.iml" filepath="$PROJECT_DIR$/GameB/GameB.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/lab3_Marzouq.iml" filepath="$PROJECT_DIR$/.idea/lab3_Marzouq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GameB/src/untitled3.iml" filepath="$PROJECT_DIR$/GameB/src/untitled3.iml" />
     </modules>
   </component>
 </project>
