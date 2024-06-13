@@ -10,11 +10,9 @@
 
 public class Main {
     /**
-     * The main method that starts the execution of the program.
      * @param args Command line arguments.
      */
     public static void main(String[] args) {
-        // Print "Hello world!" to the console
         System.out.println("Hello world!");
     }
 }
